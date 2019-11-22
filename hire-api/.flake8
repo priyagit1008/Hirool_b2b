@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 99
+exclude =
+    # ignore local settings
+    api/api/local_settings.py,
+    # ignore apps.py
+    api/resources/apps.py,
+    # ignore migrations
+    */migrations/*
+    # ignore thrid-party packages
+    */site-packages/*
